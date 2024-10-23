@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <style>
+                .contact-info {
+            align-items: baseline;
+            margin-top: 10px;
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+         body {
+            direction: rtl;
+          font-family"Tajawal Medium", sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #CFCBBE;
+            color: black;
+            padding: 5px;
+        }
+        .nav-bar {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            background-color: #CFCBBE;
+        }
+        .nav-item {
+            color: black;
+            font-size:22px;
+            margin: 8px;
+            text-decoration: none;
+        }
+        .nav-item:hover{
+            color: rgb(230, 44, 11);
+        }
+
+        h1 {
+            font-size:24px;
+        }
+        h2{
+            font-size:22px;
+            text-align:center; 
+            color: #9D8F6B;
+
+        }
+        h2:hover {
+            color: #200103;
+        }
+        p {
+            font-size: 25px; /* حجم الخط */
+            line-height: 1.5; /* ارتفاع السطر */
+            color: rgb(2, 0, 8); /* لون النص */
+            margin: 5px 0; /* هوامش (أعلى وأسفل) */
+            text-align:center; /* محاذاة النص */
+         font-family"Tajawal Medium", sans-serif; /* نوع الخط */
+        }
+
+        /* إضافة تنسيق عند تحويل النص إلى كبير */
+        p.large {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* تغيير لون النص عند مرور المؤشر عليه */
+        p:hover {
+            color: #045215;
+        }
+        .awards {
+            display: flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            
+            justify-content: center;
+            align-content: center;
+            margin: 5px;
+            padding: 5px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+      
+      
+        .award {
+            
+            flex: 0 0 calc(90% - 2px); /* عرض 50% مع هوامش */
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            text-align:right;
+            background-color: #CFCBBE;
+        }
+
+        .award img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 0 auto; /* للتوسيط الأفقي */
+            vertical-align: middle; /* للتوسيط العمودي */
+            box-shadow: rgb(168, 113, 40);
+            border-radius: 20px;
+        }
+        #copyrights {
+            color: black;
+            background: #CFCBBE;
+            padding: 20px 0;
+            border-radius: 20px;
+            text-shadow: 0 1px 0 #CFCBBE ;
+        }
+    #footer {
+
+         background-color: #CFCBBE;
+            color: black;
+            padding: 5px;
+
+    }
+    </style>
+</head>
+<body>
+
+
+    <nav class="nav-bar">
+        <img src="Logo%20M.png"> </nav>
+        <nav class="nav-bar">
+        <a href="Index.html" class="nav-item">الرئيسية</a>
+        <a href="HisWritings.html" class="nav-item">المؤلفات</a>
+        <a href="Professional%20biography.html" class="nav-item">السيرة المهنية</a>
+        <a href="awards.html" class="nav-item">الجوائز</a>
+        <a href="contctUs.html" class="nav-item">تواصل معنا</a>
+        <a href="aboutUs.html" class="nav-item"> نبذة عن الموقع</a>
+    </nav><br>
+
+    <header class="awards">
+        <h1>أ.د محمد فتحي عبدالهادي</h1>
+    </header><br>
+
+    <div class="awards">
+        <div class="award">
+<img src="Mohammad.jpg"> <br>
+ <div class="author-info">
+      <p>محمد فتحي عبد الهادي <br> هو كاتب مصري، ولد في الشرقية .</p>
+<p>حصل على دكتوراه من جامعة القاهرة في 1975، وعلى ماجستير مكتبات ومعلومات من جامعة القاهرة في 1971 </p>
+  </div>
+        </div></div>
+    
+       <div class="awards">
+        <div class="award">
+            <h2>موعد مع المؤلف - د. محمد فتحي عبد الهادي</h2>
+                <iframe style= margin-right:400px; width="560" height="315" src="https://www.youtube.com/embed/e22L2x8zYrs?si=124vyAV6pB_Iz7GK" frameborder="0" allowfullscreen></iframe>
+<br><br>
+           </div></div>
+    
+        <div class="awards">
+        <div class="award">
+            <img src="M%20Pic%20.jpg" alt="Photo">
+<br>
+ <div class="author-info">
+ <h2>لقاء خاص لفريق العمل الاعلامي مع الاستاذ الدكتور محمد فتحي عبد الهادي
+ (مقطع صوتي)</h2>
+     <audio controls style= margin-right:500px>
+  <source src="interview.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br><br>
+  </div>
+        </div></div>
+
+
+
+
+    <footer id="footer">
+        <h2 style="color: black; text-align: center">فريق العمل:</h2>
+        <ul style="color: black; text-align:center">
+            <li>رغد العنزي</li>
+            <li>رفعه القحطاني</li>
+           
+        </ul>
+        
+        <div class="contact-info">
+        <img src="customer-service.png" alt="تواصل معنا" /><br>
+        <a href="contctUs.html" class="nav-item">تواصل معنا</a>
+    </div><br>
+
+    <div class="contact-info">
+        <img src="phone-call.png" alt="هاتف" />
+        <p class="nav-item">01123456789</p>
+    </div>
+
+    <div class="contact-info">
+        <img src="email.png" alt="بريد إلكتروني" />
+        <p class="nav-item">example@example.com</p>
+    </div>
+    <div id="copyrights"><h3>جميع الحقوق محفوظة لموقع الدكتور محمد فتحي عبدالهادي ©2014    
+    </h3></div>
+</footer>
+</body>
+</html>
